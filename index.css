@@ -1,0 +1,2449 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+
+}
+
+ 
+.container {
+
+    width: 1125px;
+
+    margin: auto;
+
+}
+
+ 
+
+.menu {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+
+}
+
+ 
+
+.menu .brand {
+
+    margin-top: 15px;
+
+}
+
+ 
+
+.opsi a {
+
+    margin: 10px;
+
+    text-decoration: none;
+
+    color: black;
+
+}
+
+ 
+
+.opsi a img {
+
+    width: 30px;
+
+}
+
+ 
+
+.opsi {
+
+    margin-top: 10px;
+
+    position: relative;
+
+}
+
+ 
+
+.opsi img {
+
+    width: 30px;
+
+    height: 30px;
+
+    cursor: pointer;
+
+}
+
+ 
+
+nav {
+
+    padding: 10px;
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+
+    background-color: #fff;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    pad: 10px;
+
+    height: 70px;
+
+    margin-bottom: 1px;
+
+}
+
+ 
+
+nav ul {
+
+    display: flex;
+
+    list-style: none;
+
+    align-items: center;
+
+    gap: 2rem;
+
+}
+
+ 
+
+nav ul li {
+
+    position: relative;
+
+}
+
+ 
+
+nav ul li ul.subopsi {
+
+    display: none;
+
+    position: absolute;
+
+    top: 100%;
+
+    left: 0;
+
+    background-color: #fff;
+
+    padding: 10px;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+    z-index: 1;
+
+}
+
+ 
+
+nav ul li:hover ul.subopsi {
+
+    display: block;
+
+    width: 250px;
+
+}
+
+ 
+
+nav ul li ul.subopsi li {
+
+    padding: 10px 0;
+
+}
+
+ 
+
+nav ul li a {
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    color: #000;
+
+}
+
+ 
+
+nav ul li a:hover {
+
+    color: black;
+
+}
+
+
+ 
+/* Gambar Atas */
+
+ 
+.Atas {
+
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: url(./images/gambar1.png);
+    background-size: cover;
+    padding: 5%;
+}
+
+ 
+
+.sos {
+
+    margin-top: 100px;
+    font-size: 20px;
+    color: black;
+    line-height: 1.5;
+
+}
+
+ 
+
+.sos button {
+
+    padding: 20px 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: black;
+    border: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    font-size: large;
+
+}
+
+ 
+
+ 
+
+/* card column */
+
+ 
+
+.woof {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+ 
+
+.woof img {
+
+    width: 360px;
+    height: 360px;
+    padding: 0 10.3px 0 12px;
+
+}
+
+ 
+
+.poto {
+
+    position: relative;
+
+}
+
+ 
+
+.tulisan {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    z-index: 1;
+
+}
+
+ 
+.tulisan button {
+
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background: none;
+
+    color: white;
+
+}
+
+ 
+
+ 
+
+/* Popular Products */
+
+ 
+
+.pop {
+
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    position: relative;
+    align-items: center;
+
+}
+
+ 
+
+.view {
+
+    margin-left: auto;
+
+}
+
+ 
+
+.view button {
+
+    padding: 20px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-top: 0 90px 0 100px;
+    border: none;
+
+}
+
+ 
+
+.katalog {
+
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-top: 10px;
+
+}
+
+ 
+.katalog img {
+
+    width: 360px;
+    height: 360px;
+    padding: 0 0 12px;
+    cursor: pointer;
+
+}
+
+ 
+.k1 {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+ 
+.k2 {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+ 
+.k3 {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+ 
+.rate {
+
+    font-size: 24px;
+
+    padding: 5px 0 5px 0;
+
+}
+
+ 
+.bins {
+
+    color: rgba(255, 183, 0, 0.792);
+
+}
+
+ 
+.set {
+
+    color: #ccc;
+    width: 50%;
+    overflow: visible;
+    white-space: nowrap;
+
+}
+
+ 
+.kosong {
+
+    color: #ccc;
+
+}
+
+ 
+.kata {
+
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+}
+
+ 
+.kata p {
+
+    margin-top: 5px;
+    font-size: 15px;
+
+}
+
+
+.meow del {
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    text-decoration: line-through;
+    color: #999;
+
+}
+
+ 
+.meow {
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+
+}
+
+ 
+
+ 
+
+/* Info */
+
+ 
+
+.bark {
+
+    display: flex;
+    justify-content: space-between;
+    background: #F4F6F3;
+    padding: 50px 0px 50px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+ 
+
+.cs {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 98px;
+    margin-left: 98px;
+
+}
+
+ 
+
+.pic img {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+ 
+
+.ket{
+
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    font-size: small;
+
+}
+
+ 
+
+ 
+
+/* About */
+
+ 
+
+.info {
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+}
+
+ 
+.text {
+
+    margin-top: 70px;
+
+}
+
+ 
+
+.text span {
+
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: Arial, sans-serif;
+
+}
+
+ 
+
+.text h1 {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: midnightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+ 
+
+.text p {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif
+
+}
+
+ 
+
+.text button {
+
+    padding: 20px 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: black;
+    border: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    font-size: large;
+
+}
+
+ 
+
+.chimy {
+
+    flex: 1;
+
+}
+
+ 
+
+.chimy img {
+
+    height: 500px;
+    width: 450px;
+
+}
+
+ /* News Letter*/
+
+ .news{
+    background-color: rgba(4, 82, 82, 0.555);
+    padding: 50px;
+ }
+
+ .letter{
+    color: white;
+ }
+
+ .enter{
+    display: flex;
+    float: right;
+    margin-top: -45px;
+    
+ }
+
+ .enter button{
+    padding: 10px 20px;
+    height: 40px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+
+/* Testimonial */
+
+
+.testimoni {
+
+    background: #F4F6F3;
+    padding: 60px 0 120px 0;
+
+}
+
+ 
+.komen{
+
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+
+ 
+.komen h1 {
+
+    color: midnightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+ 
+.komen h2 {
+
+    color: #333;
+    font-family: Arial, sans-serif;
+
+}
+
+ 
+
+.kotak {
+
+    display: grid;
+    flex-wrap: wrap;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 30px;
+
+}
+
+ 
+.kiri {
+
+    flex: 1;
+    border-radius: 5px;
+    padding: 10px 5px;
+    position: relative;
+    width: 300px;
+    background-color: white;
+    margin-left: 20px;
+
+}
+
+ 
+
+.tengah {
+
+    flex: 1;
+    border-radius: 5px;
+    padding: 10px 5px;
+    position: relative;
+    width: 300px;
+    background-color: black;
+    color: azure;
+
+
+}
+
+ 
+
+.kanan {
+
+    flex: 1;
+    border-radius: 5px;
+    padding: 10px 5px;
+    position: relative;
+    width: 300px;
+    height: 290px;
+    background-color: white;
+
+}
+
+ 
+
+ 
+
+/* .stars {
+
+    color: rgba(255, 183, 0, 0.792);
+
+    padding: 10px 25px 0 25px;
+
+} */
+
+ 
+
+.biny {
+
+    font-size: 24px;
+
+    padding: 10px 25px 0 25px;
+
+}
+
+ 
+
+.bins {
+
+    color: rgba(255, 183, 0, 0.792);
+
+}
+
+
+.kiri,
+
+.kanan {
+
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    text-align: left;
+    margin: 10px;
+
+}
+
+ 
+.tengah {
+
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+    line-height: 1.6;
+    text-align: left;
+    margin: 10px;
+
+}
+
+ 
+.kiri p,
+
+.tengah p,
+
+.kanan p {
+
+    padding: 25px;
+
+}
+
+ 
+
+.org {
+
+    display: flex;
+    align-items: center;
+    padding: 0 25px 0 25px;
+
+}
+
+ 
+
+.org img {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+ 
+
+.nyam {
+
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+ /* Trending Today*/
+
+ .line1 {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background-color: white;
+
+ }
+
+
+ .line1{
+    display: flex;
+ }
+ .l1 img{
+    width: 50px;
+    height: 50px;
+ }
+
+ .l1 h2{
+    background-color: #999;
+    padding: 10px 05px;
+    border-radius: 3px;
+ }
+ .l1 h1{
+    color: aqua;
+ }
+
+
+
+
+
+/* Terakhir */
+
+ 
+
+.footercontainer {
+
+    display: grid;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    justify-content: center;
+
+    background: black;
+
+    color: white;
+
+    font-family: Arial, sans-serif;
+
+}
+
+ 
+
+ 
+
+/* about us */
+
+ 
+
+.abus {
+
+    margin-top: 40px;
+
+    margin-bottom: 40px;
+
+    justify-content: center;
+
+}
+
+ 
+
+.abus-text {
+
+    margin-left: 40px;
+
+    margin-right: 40px;
+
+}
+
+ 
+
+.abus-text h2 {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+ 
+
+.aboutus-text p {
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+ 
+
+.aboutus img {
+
+    margin-left: 40px;
+
+    margin-right: 40px;
+
+    max-width: 200px;
+
+    /* Atur lebar maksimum yang diinginkan */
+
+    max-height: 150px;
+
+    cursor: pointer;
+
+}
+
+ 
+
+.aboutus hr {
+
+    border: none;
+
+    border-top: 2px solid #484343;
+
+    /* Atur warna dan ketebalan sesuai kebutuhan Anda *
+
+    /* Sesuaikan jarak dari elemen sebelumnya */
+
+    margin-bottom: 10px;
+
+    width: 50px;
+
+}
+
+ 
+
+.latest-news {
+
+    margin-top: 30px;
+
+    margin-bottom: 40px;
+
+    margin-top: -3;
+
+    margin-left: 20px;
+
+}
+
+ 
+
+.news1 {
+
+    display: flex;
+
+    flex-direction: column;
+
+    /* Mengatur elemen secara horizontal di tengah */
+
+    margin-top: 20px;
+
+    /* Mengatur jarak antara setiap berita */
+
+}
+
+ 
+
+.latest-news img {
+
+    width: 40px;
+
+    height: 40px;
+
+    margin-left: -40px;
+
+    margin-top: 5px;
+
+}
+
+ 
+
+.latest-news h3 {
+
+    margin-top: -13px;
+
+    cursor: pointer;
+
+}
+
+ 
+
+.latest-news p {
+
+    margin-top: 17px;
+
+    margin-right: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+ 
+
+.latest-news hr {
+
+    border: none;
+
+    border-top: 2px solid #484343;
+
+    /* Atur warna dan ketebalan sesuai kebutuhan Anda *
+
+    /* Sesuaikan jarak dari elemen sebelumnya */
+
+    margin-bottom: 10px;
+
+    width: 50px;
+
+}
+
+ 
+
+ln h2 {
+
+    margin-right: 20px;
+
+}
+
+ 
+
+.newsInfo {
+
+    margin-left: 20px;
+
+    /* Jarak antara gambar dan userInfo */
+
+    display: flex;
+
+    flex-direction: column;
+
+    /* Agar elemen-elemen diatur secara vertikal */
+
+    font-size: 8px;
+
+    float: left;
+
+}
+
+ 
+
+.newsInfo {
+
+    margin-top: -32px;
+
+    margin-left: 12px;
+
+}
+
+ 
+
+ 
+
+/* join news letter */
+
+ 
+
+.join-newsletter h2 {
+
+    color: #fff;
+
+    margin-top: 45px;
+
+    margin-bottom: 10px
+
+}
+
+ 
+
+.join-newsletter input[type="email"] {
+
+    padding: 25px 20px;
+
+    width: 50%;
+
+    height: 20px;
+
+    padding: 10px;
+
+    margin-top: 10px;
+
+    margin-right: 10px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background-color: #fff;
+
+    /* Warna latar belakang input email */
+
+    color: #333;
+
+    /* Warna teks input email */
+
+}
+
+ 
+
+.join-newsletter button {
+
+    padding: 10px 20px;
+
+    height: 40px;
+
+    background-color: whitesmoke;
+
+    /* Warna latar belakang tombol subscribe */
+
+    color: black;
+
+    /* Warna teks tombol subscribe */
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+ 
+
+.join-newsletter p {
+
+    margin-top: 40px;
+
+    margin-bottom: 10px;
+
+    /* Jarak bawah paragraf pada bagian join our newsletter */
+
+}
+
+ 
+
+.join-newsletter hr {
+
+    border: none;
+
+    border-top: 2px solid #484343;
+
+    /* Atur warna dan ketebalan sesuai kebutuhan Anda *
+
+    /* Sesuaikan jarak dari elemen sebelumnya */
+
+    margin-bottom: 10px;
+
+    width: 50px;
+
+}
+
+ 
+
+.copyright {
+
+    text-align: center;
+
+    justify-items: center;
+
+    padding: 20px 0;
+
+    background: black;
+
+    color: white;
+
+    font-family: Arial, sans-serif;
+
+}* {
+
+    padding: 0;
+
+    margin: 0;
+
+    top: 0;
+
+    left: 0;
+
+    right: 0;
+
+    text-decoration: none;
+
+}
+
+ 
+
+.container {
+
+    width: 1125px;
+
+    margin: auto;
+
+}
+
+ 
+
+ 
+
+/* Tampilan Paling atas */
+
+ 
+
+.navbar {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 20px;
+
+    font-family: Arial, sans-serif;
+
+}
+
+ 
+
+.navbar .kiri {
+
+    margin-top: 15px;
+
+}
+
+ 
+
+.menu a {
+
+    margin: 10px;
+
+    text-decoration: none;
+
+    color: black;
+
+}
+
+ 
+
+.menu a img {
+
+    width: 30px;
+
+}
+
+ 
+
+.menu {
+
+    margin-top: 10px;
+
+    position: relative;
+
+}
+
+ 
+
+.menu img {
+
+    width: 30px;
+
+    height: 30px;
+
+    cursor: pointer;
+
+}
+
+ 
+
+nav {
+
+    padding: 10px;
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+
+    background-color: #fff;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    pad: 10px;
+
+    height: 70px;
+
+    margin-bottom: 1px;
+
+}
+
+ 
+
+nav ul {
+
+    display: flex;
+
+    list-style: none;
+
+    align-items: center;
+
+    gap: 2rem;
+
+}
+
+ 
+
+nav ul li {
+
+    position: relative;
+
+}
+
+ 
+
+nav ul li ul.submenu {
+
+    display: none;
+
+    position: absolute;
+
+    top: 100%;
+
+    left: 0;
+
+    background-color: #fff;
+
+    padding: 10px;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+    z-index: 1;
+
+}
+
+ 
+
+nav ul li:hover ul.submenu {
+
+    display: block;
+
+    width: 250px;
+
+}
+
+ 
+
+nav ul li ul.submenu li {
+
+    padding: 10px 0;
+
+}
+
+ 
+
+nav ul li a {
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    color: #000;
+
+}
+
+ 
+
+nav ul li a:hover {
+
+    color: black;
+
+}
+
+ 
+
+ 
+
+/* menu pull down */
+
+ 
+
+.banner {
+
+    display: flex;
+
+    justify-content: center;
+
+    height: 550px;
+
+}
+
+ 
+
+ 
+
+/* banner */
+
+ 
+
+.banner {
+
+    /* margin-top: 10px; */
+
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+
+    background-image: url(./images/20.jpeg);
+
+    background-size: cover;
+
+}
+
+ 
+
+.intro-banner {
+
+    margin-top: 180px;
+
+    font-size: 20px;
+
+    color: white;
+
+    line-height: 1.5;
+
+}
+
+ 
+
+.intro-banner button {
+
+    padding: 20px 40px;
+
+    border-radius: 3px;
+
+    cursor: pointer;
+
+    background: black;
+
+    border: none;
+
+    color: white;
+
+    font-family: Arial, sans-serif;
+
+    margin-top: 30px;
+
+    font-size: large;
+
+}
+
+ 
+
+ 
+
+/* card column */
+
+ 
+
+.card {
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    margin-top: 30px;
+
+    margin-bottom: 20px;
+
+}
+
+ 
+
+.card img {
+
+    width: 360px;
+
+    height: 360px;
+
+    padding: 0 10.3px 0 12px;
+
+}
+
+ 
+
+.card-content {
+
+    position: relative;
+
+}
+
+ 
+
+.card-text {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    color: white;
+
+    font-size: 20px;
+
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+
+    z-index: 1;
+
+    /* Mengatur z-index untuk menampilkan teks di atas gambar */
+
+}
+
+ 
+
+.card-text button {
+
+    cursor: pointer;
+
+    border: none;
+
+    border-radius: 3px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 20px;
+
+    text-align: center;
+
+    background: none;
+
+    /* Warna latar belakang tombol */
+
+    color: white;
+
+}
+
+ 
+
+ 
+
+/* Popular Products */
+
+ 
+
+.products-kiri {
+
+    margin-top: 100px;
+
+    font-size: 20px;
+
+    font-family: Arial, sans-serif;
+
+    color: #333;
+
+    display: flex;
+
+    position: relative;
+
+    align-items: center;
+
+}
+
+ 
+
+.products-kanan {
+
+    margin-left: auto;
+
+}
+
+ 
+
+.products-kanan button {
+
+    padding: 20px 40px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    background: black;
+
+    font-family: Arial, sans-serif;
+
+    color: white;
+
+    margin-top: 0 90px 0 100px;
+
+    border: none;
+
+}
+
+ 
+
+.products-column {
+
+    display: grid;
+
+    flex-wrap: wrap;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    justify-content: space-evenly;
+
+    gap: 20px;
+
+    padding-top: 10px;
+
+}
+
+ 
+
+.products-column img {
+
+    width: 360px;
+
+    height: 360px;
+
+    padding: 0 0 12px;
+
+    cursor: pointer;
+
+}
+
+ 
+
+.products1 {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+ 
+
+.products2 {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+ 
+
+.products3 {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+ 
+
+.rating {
+
+    font-size: 24px;
+
+    padding: 5px 0 5px 0;
+
+}
+
+ 
+
+.star {
+
+    color: rgba(255, 183, 0, 0.792);
+
+}
+
+ 
+
+.star-half {
+
+    color: #ccc;
+
+    /* Warna bintang setengah (transparan) */
+
+    width: 50%;
+
+    /* Setengah dari lebar kontainer untuk bintang setengah */
+
+    overflow: visible;
+
+    white-space: nowrap;
+
+}
+
+ 
+
+.star-empty {
+
+    color: #ccc;
+
+    /* Warna bintang kosong (tidak terisi) */
+
+}
+
+ 
+
+.products-text {
+
+    font-family: Arial, sans-serif;
+
+    font-size: 9px;
+
+    margin-top: 15px;
+
+    margin-bottom: 30px;
+
+    cursor: pointer;
+
+}
+
+ 
+
+.products-text p {
+
+    margin-top: 5px;
+
+    font-size: 15px;
+
+}
+
+ 
+
+.disc del {
+
+    font-family: Arial, sans-serif;
+
+    font-size: 15px;
+
+    text-decoration: line-through;
+
+    /* Menggunakan line-through untuk mencoret teks */
+
+    color: #999;
+
+    /* Warna teks yang dicoret (biasanya abu-abu) */
+
+}
+
+ 
+
+.disc {
+
+    font-family: Arial, sans-serif;
+
+    font-size: 15px;
+
+}
+
+ 
+
+ 
+
+/* Info */
+
+ 
+
+.info-container {
+
+    display: flex;
+
+    /* Menggunakan flexbox untuk mengatur ketiga .info-column */
+
+    justify-content: space-between;
+
+    /* Untuk memisahkan ketiga kolom secara merata */
+
+    background: #F4F6F3;
+
+    padding: 50px 0px 50px 0;
+
+    margin-top: 50px;
+
+    margin-bottom: 50px;
+
+}
+
+ 
+
+.info-column {
+
+    display: flex;
+
+    /* Mengatur tata letak kolom */
+
+    align-items: center;
+
+    /* Mengatur gambar dan teks ke tengah kolom */
+
+    text-align: center;
+
+    /* Mengatur teks ke tengah */
+
+    margin-right: 98px;
+
+    margin-left: 98px;
+
+}
+
+ 
+
+.info-icon img {
+
+    width: 60px;
+
+    height: 60px;
+
+    border-radius: 50%;
+
+}
+
+ 
+
+.information {
+
+    margin-top: 10px;
+
+    font-family: Arial, sans-serif;
+
+    line-height: 1.5;
+
+    font-size: small;
+
+}
+
+ 
+
+ 
+
+/* About */
+
+ 
+
+.about {
+
+    display: flex;
+
+    /* Menggunakan flexbox untuk mengatur tata letak */
+
+    justify-content: space-between;
+
+    /* Agar .about-images dan .about-text berada pada sisi yang berlawanan */
+
+    /* Atur padding sesuai kebutuhan */
+
+    margin-right: 40px;
+
+    margin-left: 40px;
+
+    /* Atur margin sesuai kebutuhan */
+
+    margin-top: 90px;
+
+    margin-bottom: 90px;
+
+}
+
+ 
+
+.about-text {
+
+    margin-top: 70px;
+
+}
+
+ 
+
+.about-text span {
+
+    margin-top: 50px;
+
+    margin-bottom: 10px;
+
+    color: #333;
+
+    font-family: Arial, sans-serif;
+
+}
+
+ 
+
+.about-text h1 {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+    color: midnightblue;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+ 
+
+.about-text p {
+
+    margin-top: 30px;
+
+    margin-bottom: 30px;
+
+    margin-right: 40px;
+
+    line-height: 1.5;
+
+    font-family: Arial, sans-serif
+
+}
+
+ 
+
+.about-text button {
+
+    padding: 20px 40px;
+
+    border-radius: 3px;
+
+    cursor: pointer;
+
+    background: black;
+
+    border: none;
+
+    color: white;
+
+    font-family: Arial, sans-serif;
+
+    margin-top: 30px;
+
+    font-size: large;
+
+}
+
+ 
+
+.about-images {
+
+    flex: 1;
+
+    
+}
+
+ 
+
+.about-images img {
+
+   
+    height: 500px;
+
+    width: 450px;
+
+  
+
+}
+
+ 
+
+ 
+/* News Letter*/
+
+.news{
+
+    background-color: #128378;
+    color: white;
+    padding: 30px;
+    width: 1230px;
+    margin-bottom: 100px;
+    margin: auto;
+
+
+}
+
+ 
+
+.news h1 {
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    opacity: bold;
+}
+
+ 
+
+.news p{
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+ 
+
+.letter p{
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 800px;
+    margin-top: -20px;
+
+}
+
+ 
+
+.letter hr{
+
+    border: none;
+    border-top: 2px solid white;
+    margin-top: 10px; 
+    margin-bottom: 5px;
+    width: 320px;
+    margin-left: 800px;
+
+}
+
+ 
+
+.letter img{
+
+    display: flex;
+    width: 20px;
+    height: auto;
+    margin-left: 1100px;
+    margin-top: -20px;
+
+}
+
+
+
+
+/* review */
+
+ 
+
+.review-container {
+
+    background: #F4F6F3;
+
+    padding: 60px 0 120px 0;
+
+}
+
+ 
+
+.review {
+
+    text-align: center;
+
+    line-height: 1.5;
+
+    margin-bottom: 20px;
+
+}
+
+ 
+
+.review h1 {
+
+    color: midnightblue;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+ 
+
+.review h2 {
+
+    color: #333;
+
+    font-family: Arial, sans-serif;
+
+}
+
+ 
+
+.box-container {
+
+    display: grid;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+    justify-content: center;
+
+    margin-right: 10px;
+
+    margin-left: 30px;
+
+}
+
+ 
+
+.boxkiri {
+
+    flex: 1;
+
+    border-radius: 5px;
+
+    padding: 10px 5px;
+
+    position: relative;
+
+    width: 300px;
+
+    background-color: white;
+
+    margin-left: 20px;
+
+    /* margin-bottom: 10px;
+
+    margin: 0; */
+
+}
+
+ 
+
+.boxtengah {
+
+    flex: 1;
+
+    border-radius: 5px;
+
+    padding: 10px 5px;
+
+    position: relative;
+
+    width: 300px;
+
+    background-color: black;
+
+    color: azure;
+
+    /* margin-bottom: 10px;
+
+    margin: 0; */
+
+}
+
+ 
+
+.boxkanan {
+
+    flex: 1;
+
+    border-radius: 5px;
+
+    padding: 10px 5px;
+
+    position: relative;
+
+    width: 300px;
+
+    height: 290px;
+
+    background-color: white;
+
+}
+
+
+ 
+
+.rating1 {
+
+    font-size: 24px;
+    padding: 10px 25px 0 25px;
+
+}
+
+ 
+
+.star {
+
+    color: rgba(255, 183, 0, 0.792);
+
+}
+
+
+
+/* review text */
+
+ 
+
+.boxkiri,
+
+.boxkanan {
+
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    text-align: left;
+    margin: 10px;
+
+}
+
+ 
+
+.boxtengah {
+
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+    line-height: 1.6;
+    text-align: left;
+    margin: 10px;
+
+}
+
+ 
+
+.boxkiri p,
+
+.boxtengah p,
+
+.boxkanan p {
+
+    padding: 25px;
+
+}
+
+ 
+
+.user {
+
+    display: flex;
+    align-items: center;
+    padding: 0 25px 0 25px;
+
+}
+
+ 
+
+.user img {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+ 
+
+.userInfo {
+
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+/* Trending*/
+
+
+.trending {
+    max-width: 1200px; /* or your preferred width */
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.trending h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    border-bottom: aqua;
+    color: aqua;
+}
+
+.item {
+    display: inline-block;
+    width: 30%; /* Adjust for your design preference */
+    margin-right: 2.5%;
+    background-color: #FFF;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.item:last-child {
+    margin-right: 0;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.category {
+    display: inline-block;
+    background-color: rgb(192, 182, 182);
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.item h2 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: aqua;
+}
+
+.rating {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.rating span {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+
+
+/* footer */
+
+ 
+
+footer {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 10px;
+    color: white;
+
+}
+
+.boutus, .social-media, .ln, .join-newsletter {
+    flex: 1;
+    margin-right: 20px;
+    padding-top: 60px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.boutus img{
+border: none;
+border-top: 10px; 
+border-radius: 25px;
+margin-bottom: 10px;
+width: 40px;
+height: 40px;
+}
+.ln ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ln li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.ln hr {
+    border: none;
+    border-top: 2px solid #484343; 
+    margin-bottom: 5px;
+    width: 50px;
+}
+
+
+.ln img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+.join-newsletter input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.talk{
+    text-align: center;
+    padding: 30px;
+}
+
+.talk h2{
+    color: rgb(48, 48, 173);
+}
+
+.talk button{
+    padding: 20px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: rgb(19, 75, 139);
+    border: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    font-size: large;
+}
+
+.copy {padding: 20px;background-color: black; 
+    color: white;text-align: center;}
